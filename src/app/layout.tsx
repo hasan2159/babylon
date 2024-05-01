@@ -2,10 +2,10 @@ import { cn } from '@/lib/utils'
 import '@/styles/globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
-
+import React, { useState, useEffect } from 'react';
 export const metadata = {
   title: 'Babylon',
-  description: 'Knowledhe is power',
+  description: 'Knowleghe is power',
 }
 
 
